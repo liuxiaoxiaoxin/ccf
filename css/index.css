@@ -1,0 +1,79 @@
+.pageChild p{
+    line-height: 30px;
+    text-align:left;
+    text-indent:2em;
+}
+#pai{
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 40px;
+}
+.img1 p{
+    font-size:20px;
+}
+.img1{
+    color: rgb(208, 206, 206); 
+    text-align: center;
+}
+.img1:hover{
+    color: black;
+    transition: .5s;
+}
+.img1{
+    float: left;
+    margin-left: 60px;
+}
+.paiIntroduce p{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+#table-span{
+    font-size: 16px;
+}
+.pageChild table th{
+    padding: 10px;
+    width:105px;
+}
+
+
+/* //全屏按钮 */
+video::-webkit-media-controls-fullscreen-button {
+    display: none;
+}
+/* 播放按钮 */
+/* video::-webkit-media-controls-play-button {
+    display: none;
+} */
+/* //进度条 */
+video::-webkit-media-controls-timeline {
+    display: none;
+}
+/* //观看的当前时间 */
+/* video::-webkit-media-controls-current-time-display{
+    display: none;            
+} */
+/* //剩余时间 */
+/* video::-webkit-media-controls-time-remaining-display {
+    display: none;            
+} */
+/* //音量按钮 */
+video::-webkit-media-controls-mute-button {
+    display: none;            
+}
+video::-webkit-media-controls-toggle-closed-captions-button {
+    display: none;            
+}
+/* //音量的控制条 */
+video::-webkit-media-controls-volume-slider {
+    display: none;            
+}
+/* //所有控件 */
+/* video::-webkit-media-controls-enclosure{ 
+    display: none;
+} */
+video{
+    width: 80%;
+    border-radius:20px;
+    border:4px solid white;
+    outline:none;
+}

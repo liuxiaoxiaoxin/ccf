@@ -1,0 +1,25 @@
+#tw{
+    font-size: 12px;
+    line-height: 30px;
+}
+#tw-p{
+    font-size: 15px;
+    margin-left: 10px;
+    line-height: 20px;
+    text-indent: 2em;
+    margin-top:10px;
+}
+#pt{
+    font-size: 12px;
+    margin: 0px;
+    line-height: 30px;
+}
+.tw-div{
+    margin-left: 100px;
+    border: 1px solid white;
+    padding: 10px;
+}
+h2{
+    float: left;
+    margin-top: 30px;
+}
